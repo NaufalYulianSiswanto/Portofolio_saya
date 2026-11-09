@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Naufal Yulian Siswanto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="naufal_header">
+        <nav class="naufal_nav">
+            <a href="#home" class="naufal_logo">Naufal<span>.</span></a>
+
+            <button class="naufal_menu_toggle" id="naufal_menu_toggle"
+                aria-label="Buka menu" aria-expanded="false">☰</button>
+
+            <ul class="naufal_menu" id="naufal_menu">
+                <li><a href="#home" class="naufal_nav_link naufal_active">Home</a></li>
+                <li><a href="#about" class="naufal_nav_link">About Me</a></li>
+                <li><a href="#skills" class="naufal_nav_link">Skills</a></li>
+                <li><a href="#projects" class="naufal_nav_link">Projects</a></li>
+                <li><a href="#contact" class="naufal_nav_link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="naufal_hero" id="home">
+            <div class="naufal_hero_content">
+                <p class="naufal_greeting">HALO, SELAMAT DATANG!</p>
+                <h1>Saya <span>Naufal Yulian Siswanto</span></h1>
+                <h2>Mahasiswa Teknik Informatika</h2>
+                <p>
+                    Saya tertarik dengan dunia teknologi, pemrograman,
+                    pengembangan website, dan desain antarmuka.
+                </p>
+                <div class="naufal_hero_buttons">
+                    <a href="#projects" class="naufal_btn">Lihat Project</a>
+                    <a href="#contact" class="naufal_btn naufal_btn_outline">Hubungi Saya</a>
+                </div>
+            </div>
+
+            <div class="naufal_hero_visual">
+                <div class="naufal_hero_circle">
+                    <span>💻</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="naufal_section" id="about">
+            <div class="naufal_section_heading">
+                <p>TENTANG SAYA</p>
+                <h2>About Me</h2>
+            </div>
+
+            <div class="naufal_about_content">
+                <div class="naufal_about_photo">
+                    <img src="images/_MG_0790.jpg" alt="Foto Naufal Yulian Siswanto">
+                </div>
+
+                <div class="naufal_about_text">
+                    <h3>Halo, saya Naufal!</h3>
+                    <p>
+                        Saya merupakan mahasiswa Teknik Informatika di
+                        Universitas Perjuangan Tasikmalaya. Saya memiliki
+                        ketertarikan dalam bidang teknologi informasi,
+                        pengembangan aplikasi, pemrograman, dan desain website.
+                    </p>
+                    <p>
+                        Saya senang mempelajari hal baru, mengembangkan
+                        kemampuan, dan membuat proyek yang dapat memberikan
+                        manfaat bagi orang lain.
+                    </p>
+
+                    <div class="naufal_about_info">
+                        <p><strong>Nama:</strong> Naufal Yulian Siswanto</p>
+                        <p><strong>Pendidikan:</strong> Teknik Informatika</p>
+                        <p><strong>Universitas:</strong> Universitas Perjuangan Tasikmalaya</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="naufal_section naufal_skills_section" id="skills">
+            <div class="naufal_section_heading">
+                <p>KEMAMPUAN SAYA</p>
+                <h2>My Skills</h2>
+                <span>Teknologi yang sedang saya pelajari dan kembangkan.</span>
+            </div>
+
+            <div class="naufal_skills_grid">
+                <div class="naufal_skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+                    <span>HTML5</span>
+                </div>
+
+                <div class="naufal_skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+                    <span>CSS3</span>
+                </div>
+
+                <div class="naufal_skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="naufal_skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP">
+                    <span>PHP</span>
+                </div>
+
+                <div class="naufal_skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                    <span>Python</span>
+                </div>
+
+                <div class="naufal_skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+                    <span>MySQL</span>
+                </div>
+
+                <div class="naufal_skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                    <span>Git</span>
+                </div>
+
+                <div class="naufal_skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+                    <span>GitHub</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="naufal_section" id="projects">
+            <div class="naufal_section_heading">
+                <p>HASIL KARYA</p>
+                <h2>My Projects</h2>
+            </div>
+
+            <div class="naufal_projects_grid">
+                <article class="naufal_project_card">
+                    <div class="naufal_project_icon">📦</div>
+                    <h3>Sistem Gudang Elektronik</h3>
+                    <p>Aplikasi pengelolaan stok barang, data produk, dan laporan persediaan.</p>
+                    <span>Web Application</span>
+                </article>
+
+                <article class="naufal_project_card">
+                    <div class="naufal_project_icon">💰</div>
+                    <h3>Keuangan Anak Kos</h3>
+                    <p>Aplikasi pencatatan pemasukan dan pengeluaran keuangan pribadi.</p>
+                    <span>Web Application</span>
+                </article>
+
+                <article class="naufal_project_card">
+                    <div class="naufal_project_icon">📚</div>
+                    <h3>PinjamYuk</h3>
+                    <p>Konsep aplikasi peminjaman barang dengan pengelolaan data pengguna.</p>
+                    <span>Project Kuliah</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="naufal_section naufal_contact_section" id="contact">
+            <div class="naufal_section_heading">
+                <p>TERHUBUNG DENGAN SAYA</p>
+                <h2>Contact Me</h2>
+            </div>
+
+            <div class="naufal_contact_content">
+                <p>Tertarik untuk berdiskusi atau bekerja sama? Silakan hubungi saya.</p>
+                <a href="mailto:emailkamu@example.com" class="naufal_btn">Kirim Email</a>
+                <p class="naufal_email">Ganti emailkamu@example.com dengan alamat email kamu.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="naufal_footer">
+        <p>© <span id="naufal_year"></span> Naufal Yulian Siswanto. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
